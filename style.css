@@ -1,0 +1,236 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  transition: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-logo .head {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.home-content {
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: linear-gradient(to right, #00bcd4, #2196f3);
+  color: #fff;
+}
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.subtitle p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.cta-button {
+  background-color: #fff;
+  color: #2196f3;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2196f3;
+  text-align: center;
+}
+
+/* About Section */
+.about {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+.about-content {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+/* Education Section */
+.education-section {
+  background-color: #f0f0f0;
+  padding: 60px 40px;
+}
+
+.education-timeline {
+  list-style: none;
+  max-width: 800px;
+  margin: auto;
+}
+.education-timeline li {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #fff;
+  border-left: 5px solid #f38021;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.education-timeline li:hover{
+box-shadow: 0 3px 10px rgba(248, 112, 8, 0.977);;
+}
+.degree {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.institution, .year, .details {
+  margin-top: 5px;
+}
+
+/* Skills Section */
+.skills {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.skill {
+  background-color: #2196f3;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.skill:hover{
+  box-shadow: 0 3px 10px rgba(248, 112, 8, 0.977);
+
+}
+
+/* Projects Section */
+.projects {
+  background-color: #f0f0f0;
+  padding: 60px 40px;
+}
+.project-cards {
+  max-width: 900px;
+  margin: auto;
+}
+.project-cards:hover {
+  box-shadow: 0 3px 10px rgba(248, 112, 8, 0.977);
+}
+.card {
+  background: #fff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+.project-meta {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+.project-desc p {
+  font-size: 1rem;
+}
+
+/* Mini Projects Section */
+.mini-projects-section {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+.mini-projects-list {
+  list-style: none;
+  max-width: 900px;
+  margin: auto;
+}
+.mini-project-card {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #00bcd4;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.mini-project-card:hover{
+    box-shadow: 0 3px 10px rgba(98, 138, 219, 0.977);
+}
+.mini-project-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.mini-project-tech {
+  font-style: italic;
+  color: #666;
+  margin: 5px 0;
+}
+.mini-project-desc {
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 40px;
+  background-color: #f0f0f0;
+}
+.contact-info {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1rem;
+}
+.contact-info a {
+  color: #2196f3;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #2196f3;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
