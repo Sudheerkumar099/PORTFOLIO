@@ -152,7 +152,7 @@ box-shadow: 0 3px 10px rgba(248, 112, 8, 0.977);;
   max-width: 900px;
   margin: auto;
 }
-.project-cards:hover {
+.card:hover {
   box-shadow: 0 3px 10px rgba(248, 112, 8, 0.977);
 }
 .card {
